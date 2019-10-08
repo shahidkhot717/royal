@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
+</head>
+<body>
+<div id="header"></div>
+<!--Remaining section-->
+<form action="register.html" method="post">
+		<div class="container">
+		<legend>Create Account</legend>
+		<div>
+			Your name:
+			<br>
+			<input type="text" name="username" >
+		</div>
+		<div>
+			Mobile Number:
+			<br>
+			<input type="number" name="mobile no" >
+		</div>
+		<div>
+			Email:
+			<br>
+			<input type="email" name="email">
+		</div>
+		<div>
+			Password:
+			<br>
+			<input type="password" name="password" id="myInput">
+		</div>
+		<div>
+			<br>
+			<input type="checkbox" name="" onclick="myFunction()">show password
+		</div>
+		<div>
+			<button type="button" class="btn btn-success">submit</button>
+		</div>
+		</div>
+		
+	</form>
+	<div id="sign">
+		Already have an account?<a href="login.html">sing in</a>
+	</div>
+	<script><script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script></script>
+
+<div id="footer"></div>
+</body>
+</html>
+<!--<html>
+<head>
+	<title>register</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+<body>
+	<link href="extern.html" rel="import" />
+	<form action="register.html" method="post">
+		<div class="container">
+		<legend>Create Account</legend>
+		<div>
+			Your name:
+			<br>
+			<input type="text" name="" >
+		</div>
+		<div>
+			Mobile Number:
+			<br>
+			<input type="number" name="" >
+		</div>
+		<div>
+			Email:
+			<br>
+			<input type="email" name="">
+		</div>
+		<div>
+			Password:
+			<br>
+			<input type="password" name="">
+		</div>
+		<div>
+			<button type="button" class="btn btn-success">submit</button>
+		</div>
+		</div>
+		
+	</form>
+
+	<div id="sign">
+		Already have an account?<a href="login.html">sing in</a>
+	</div>

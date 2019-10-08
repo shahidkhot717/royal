@@ -1,0 +1,62 @@
+#header{
+	color:black;
+	text-align: center;
+	background-color: #ffffff;
+
+}
+
+form{
+	text-align: center;
+}
+
+div{
+	margin: 100dp;
+	padding: 100pd;
+}
+
+input{
+	width: 25%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 4px;
+	
+	
+}
+#sign,#regis{
+	text-align: center;
+	padding: 12px 20px;
+	margin: 8px 0;
+
+
+}
+
+#nav{
+	text-align: center;
+}
+
+
+
+footer{
+	text-align: center;
+}
+.login,.register{
+	float: right;
+}
+.item active{
+	width: 50%;
+	height: 50%;
+
+}
+img{
+	width: 50%;
+	height: 50%;
+}
+carousel-inner{
+	height: 25%;
+	width: 25%;
+}
+
+.card{
+	margin: 10px;
+	padding: 20px;
+}
